@@ -1,0 +1,164 @@
+/* =========================
+   Global Styles
+========================= */
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(
+    135deg,
+    #caf0f8,
+    #90e0ef,
+    #48cae4
+  );
+  min-height: 100vh;
+}
+
+/* =========================
+   Navbar
+========================= */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #0077b6;
+  color: white;
+
+  padding: 15px 30px;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar h2 {
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+
+  padding: 10px 15px;
+  border-radius: 8px;
+
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: #023e8a;
+}
+
+/* =========================
+   Upload Section
+========================= */
+
+.upload-box {
+  width: 70%;
+
+  margin: 40px auto;
+
+  background: white;
+
+  padding: 30px;
+
+  border-radius: 15px;
+
+  text-align: center;
+
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* =========================
+   Buttons
+========================= */
+
+button {
+  background-color: #0077b6;
+  color: white;
+
+  border: none;
+
+  padding: 10px 20px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #023e8a;
+}
+
+/* =========================
+   Cards
+========================= */
+
+.card {
+  width: 70%;
+
+  margin: 20px auto;
+
+  background: white;
+
+  padding: 25px;
+
+  border-radius: 15px;
+
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+  color: #0077b6;
+}
+
+/* =========================
+   Help & Contact Pages
+========================= */
+
+.page {
+  width: 80%;
+
+  margin: 30px auto;
+
+  background: white;
+
+  padding: 30px;
+
+  border-radius: 15px;
+
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.page h2 {
+  color: #0077b6;
+}
+
+.page ol li {
+  margin-bottom: 10px;
+}
+
+/* =========================
+   Sample Input Box
+========================= */
+
+pre {
+  background: #f4f4f4;
+
+  padding: 15px;
+
+  border-radius: 10px;
+
+  overflow-x: auto;
+}
